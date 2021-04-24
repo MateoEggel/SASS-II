@@ -1,0 +1,26 @@
+{
+  "name": "proyecto-bicicleteriasass",
+  "version": "1.0.0",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^5.0.0",
+    "nodemon": "^2.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss scss/estilosSCSS.scss css/estilosCSS.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "author": "",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MateoEggel/Entrega-SASS-I.git"
+  },
+  "bugs": {
+    "url": "https://github.com/MateoEggel/Entrega-SASS-I/issues"
+  },
+  "homepage": "https://github.com/MateoEggel/Entrega-SASS-I#readme",
+  "description": ""
+}

@@ -1,0 +1,102 @@
+$blanco: #000000 ;
+
+a{
+    font-family: 'Montserrat', sans-serif; color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
+    margin: 10px 10px 10px 10px;
+    padding: 10px 20px 10px 20px;
+border-radius: 5px;
+height: auto;
+}
+
+
+body{
+    display: flex;
+    height: 600px; 
+    flex-direction: column;
+    padding: 1em;
+    }
+
+
+.titulomarcas{
+    font-family: 'Montserrat', sans-serif;
+    color: $blanco ;
+    margin-left: 600px;
+    padding: 10px 20px 10px 20px;
+border-radius: 5px;
+height: auto;
+}
+
+h1{
+
+    margin-left: 650px;
+    width: 400px;
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.Nosotros{
+    font-family: 'Montserrat', sans-serif;
+    display: block;
+    width: 900px ;
+    height: 200px;
+    background-color: #e4e4e4;
+    margin: 50px 50px 50px 350px;
+    padding-left: 50px;
+    padding-top: 10px;
+border-radius: 50px;
+
+}
+
+h6{
+    font-family: 'Montserrat', sans-serif;
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navegacion {
+    position: relative;
+top: -50px; 
+left: 40px;
+    margin-left: 500px;
+    display: inline;
+    text-align: center;
+}
+
+
+
+.formulario{
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(0, 0, 0);
+}
+
+
+form {    
+    background-color: rgb(212, 212, 212);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    padding: 50px;
+    margin-top: 100px;
+}
+
+.botones{
+    display: block;
+    width: 900px ;
+    height: 35px;
+    background-color: #2600ff;
+    margin: 50px 50px 50px 50px;
+    padding-left: 589px;
+    padding-top: 10px;
+border-radius: 50px;
+
+}
+
+
+
+.d-flex {
+
+    padding-left: 500px;
+}

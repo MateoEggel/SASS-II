@@ -1,0 +1,24 @@
+$blanco: #000000 ;
+
+footer{
+    grid-area: ft;
+    background-color: #ffee00;
+    
+
+        display: grid;
+     
+        grid-template-columns:35% 35% 30%; 
+     
+        align-items: center;  
+     
+     
+  
+}
+.textofoot{
+    display: inline-block ;
+    font-family: 'Montserrat', sans-serif; color: rgb(0, 0, 0);
+    margin: 10px 10px 10px 10px;
+    padding: 10px 20px 10px 20px;
+border-radius: 5px;
+height: auto;
+}
